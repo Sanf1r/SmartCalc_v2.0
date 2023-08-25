@@ -1,5 +1,12 @@
 # SmartCalc_v2.0
+
 Implementation of SmartCalc v2.0.
+
+Tested on MacOS Big Sur 11.6.6.
+
+Made on June 21 2023 as part of my education in School 21 :)
+
+https://github.com/Sanf1r/SmartCalc_v2.0/assets/100280376/2011a236-8786-4e6f-97b1-14a7e013fc96
 
 ## Introduction
 
