@@ -1,0 +1,126 @@
+\input texinfo
+@setfilename SmartCalc_manual
+@settitle SmartCalc_v2.0
+
+@copying
+Made by Morfinov on June 2023
+@end copying
+
+@titlepage
+@title SmartCalc Guide
+@vskip 
+@insertcopying
+@end titlepage
+
+@ifnottex
+@node Top
+@top SmartCalc_v2.0
+@insertcopying
+@end ifnottex
+
+@menu
+* General information:: This section provides common information about calculator.
+* Arithmetic operations:: This section provides information about the list of implemented arithmetic operations
+* Math function:: This section provides information about the list of implemented mathematical functions.
+* Graph:: This section provides information about the possibility of plotting functions.
+* Credit calculator:: This section provides information about the possibility of a credit calculator.
+@end menu
+
+@node General information
+@chapter General information
+
+This project implement's an extended version of the usual calculator, which can be found in the standard applications of each operating system in the C++ programming language using MVC pattern.
+In its core it using Edsger Dijkstra algorithm for converting expressions (including functions) from infix to Reverse Polish notation.
+In addition to basic arithmetic operations such as add/subtract and multiply/divide, it have the ability to calculate arithmetic expressions by following the order, as well as some mathematical functions (sine, cosine, logarithm, etc.).
+Besides calculating expressions, it also support the use of the x variable and the graphing of the corresponding function.
+As other improvements a credit calculator is implement.
+
+@node  Arithmetic operations
+@chapter  Arithmetic operations
+
+Arithmetic operations that are implemented in the calculator:
+@enumerate
+@item
+Brackets - (a + b)
+@item
+Addition - a + b
+@item
+Subtraction - a - b
+@item
+Multiplication - a * b
+@item
+Division - a / b
+@item
+Power - a ^ b
+@item
+Modulus - a mod b
+@item
+Unary plus - +a
+@item
+Unary minus - -a
+@end enumerate
+Calculator can calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable x as a number.
+The calculation must be done after you complete entering the calculating expression and press the = symbol.
+
+@node Math function
+@chapter Math function
+
+The following mathematical functions are implemented in the calculator:
+@enumerate
+@item
+Computes cosine - cos(x)
+@item
+Computes sine - sin(x)
+@item
+Computes tangent - tan(x)
+@item
+Computes arc cosine - acos(x)
+@item
+Computes arc sine - asin(x)
+@item
+Computes arc tangent - atan(x)
+@item
+Computes square root - sqrt(x)
+@item
+Computes natural logarithm - ln(x)
+@item
+Computes common logarithm - log(x)
+@end enumerate
+The calculation must be done after you complete entering the calculating expression and press the = symbol.
+
+@node Graph
+@chapter Graph
+
+The calculator implements the possibility of plotting functions.
+In order to build a graph, enter the expression in top box and click the "Make Graph" button.
+The graph will appear.
+
+@node Credit calculator
+@chapter Credit calculator
+
+The calculator has a special mode of operation: Credit Calculator.
+
+The credit calculator window contains the following fields:
+@enumerate
+@item
+Total credit amount - the desired credit amount.
+@item
+Term - set in months or yesrs.
+@item
+Interest Rate - the desired interest rate.
+@item
+Type - define type of payments: annuity or differentiated.
+@end enumerate
+Output Fields: 
+@enumerate
+@item
+Monthly payment - amount of payment for each month.
+@item
+Overpayment on credit - summary overpayment of credit.
+@item
+Total payment -  total you will pay to pay of this credit.
+@end enumerate
+
+Press 'Calculate' to see the result.
+
+@bye
